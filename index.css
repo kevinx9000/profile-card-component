@@ -1,0 +1,163 @@
+/* VARIABLE STYLES */
+:root {
+    --dark-cyan: hsl(185, 75%, 39%);
+    --dark-blue: hsl(229, 23%, 23%);
+    --gray-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+    --font-size-body: 18px;
+}
+
+/* RESET BROWSER STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--dark-cyan);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BACKGROUND PATTERN */
+#bg-pattern-top {
+    position: absolute;
+    top: -500px;
+    left: -250px;
+}
+
+#bg-pattern-bottom {
+    position: absolute;
+    bottom: -600px;
+    right: -250px;
+}
+
+/* PROFILE CARD */
+.card {
+    width: 375px;
+    height: 400px;
+    background-color: white;
+    z-index: 1;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-top {
+    width: 100%;
+    height: 75px;
+    background: url(images/bg-pattern-card.svg);
+    flex: 2;
+}
+
+.card-middle {
+    width: 100%;
+    height: 75px;
+    background-color: white;
+    flex: 2;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+}
+
+#victor-img {
+    border-radius: 50%;
+    border: 5px solid white;
+    position: relative;
+    left: calc(50% - 48px);
+    top: 110px;
+    z-index: 1;
+}
+
+.card-middle-text {
+    margin-bottom: 25px;
+}
+
+.card-middle h1 {
+    display: inline-block;
+    font-size: var(--font-size-body);
+    padding: 0 10px;
+    color: var(--dark-blue);
+    font-weight: 700;
+}
+
+.card-middle-text span {
+    color: var(--dark-gray)
+}
+
+.card-middle .city {
+    padding: 10px;
+    color: var(--dark-gray);
+}
+
+.card-bottom {
+    width: 100%;
+    height: 75px;
+    background-color: white;
+    flex: 1;
+    border-top: 0.25px solid #dddddd;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.card-bottom .stat-number {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.card-bottom .stat-name {
+    font-size: 0.75em;
+    letter-spacing: 2px;
+    color: var(--dark-gray);
+}
+
+/* ATTRIBUTION */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    bottom: 5%;
+    color: white;
+}
+
+.attribution a {
+    color: var(--dark-blue);
+}
+
+/* MOBILE BREAKPOINT */
+@media only screen and (max-width: 376px) {
+    .card {
+        width: 90%;
+    }
+
+    #bg-pattern-top {
+        position: absolute;
+        top: -600px;
+        left: -800px;
+    }
+
+    #bg-pattern-bottom {
+        position: absolute;
+        bottom: -600px;
+        right: -800px;
+    }
+}
