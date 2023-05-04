@@ -16,31 +16,20 @@
 
 body {
     font-family: 'Kumbh Sans', sans-serif;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+    background-repeat: no-repeat, no-repeat;
+    background-color: hsl(185deg, 75%, 39%);
 }
 
 main {
     width: 100%;
     height: 100vh;
-    background-color: var(--dark-cyan);
     position: relative;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-/* BACKGROUND PATTERN */
-#bg-pattern-top {
-    position: absolute;
-    top: -500px;
-    left: -250px;
-}
-
-#bg-pattern-bottom {
-    position: absolute;
-    bottom: -600px;
-    right: -250px;
 }
 
 /* PROFILE CARD */

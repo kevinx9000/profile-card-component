@@ -12,6 +12,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
+- [Acknowledgement](#acknowledgement)
 
 ## Overview
 
@@ -27,8 +28,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/profile-card-component-using-flexbox-and-positioning-r3zjIRVDM0)
-- Live Site URL: [Add live site URL here](https://kevinx9000.github.io/profile-card-component/)
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
@@ -52,3 +53,7 @@ Also, doing multiple Flexbox areas became a challenge trying to keep them all st
 
 - Frontend Mentor - [@kevinx9000](https://www.frontendmentor.io/profile/kevinx9000)
 - Twitter - [@KevHerrmann](https://www.twitter.com/KevHerrmann)
+
+## Acknowledgement
+
+Updated my code to fix the body background image based on feedback from [@0xAbdulKhalid](https://www.frontendmentor.io/profile/0xAbdulKhalid)
